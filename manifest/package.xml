@@ -30,6 +30,7 @@
     </types-->
     <types>
         <members>ProfessionalProjects__c</members>
+        <members>ProfessionalSkills__c</members>
         <name>CustomObject</name>
     </types>
     <version>63.0</version>
