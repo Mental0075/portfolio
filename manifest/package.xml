@@ -29,7 +29,11 @@
         <name>LightningComponentBundle</name>
     </types-->
     <types>
+        <members>Education__c</members>
+        <members>ProfessionalCertifications__c</members>
         <members>ProfessionalProjects__c</members>
+        <members>TechnologyStack__c</members>
+        <members>ProfessionalSkills__c</members>
         <name>CustomObject</name>
     </types>
     <version>63.0</version>
