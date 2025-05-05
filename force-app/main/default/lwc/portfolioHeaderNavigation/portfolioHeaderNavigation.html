@@ -1,5 +1,18 @@
 <template>
-    <nav>
-        Home
+    <nav class="navigation">
+        <div class="nav-left">
+            <ul>
+                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Home</a></li>
+                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Projects</a></li>
+                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Certificates</a></li>
+                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Experience</a></li>
+                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Education</a></li>
+                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <img src={myImageUrl} alt="My Image" />
+            <p>Mobin Akhtar</p>
+        </div>
     </nav>
 </template>
