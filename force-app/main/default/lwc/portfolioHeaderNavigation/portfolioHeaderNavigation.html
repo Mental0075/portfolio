@@ -1,18 +1,14 @@
 <template>
-    <nav class="navigation">
-        <div class="nav-left">
-            <ul>
-                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Home</a></li>
-                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Projects</a></li>
-                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Certificates</a></li>
-                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Experience</a></li>
-                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Education</a></li>
-                <li><a  class="cg-help-link" onclick={handleNavClick} data-url="#">Contact Me</a></li>
-            </ul>
+    <header class="site-header">
+        <div class="container">
+          <div class="logo">Mobin Akhtar</div>
+          <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Certifications</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
+          </nav>
         </div>
-        <div class="nav-right">
-            <img src={myImageUrl} alt="My Image" />
-            <p>Mobin Akhtar</p>
-        </div>
-    </nav>
+      </header>
 </template>
