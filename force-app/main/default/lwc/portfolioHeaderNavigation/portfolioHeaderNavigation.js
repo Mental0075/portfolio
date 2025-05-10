@@ -1,15 +1,13 @@
-import { LightningElement, api } from 'lwc';
+import { LightningElement, api, track } from 'lwc';
 
 export default class Navigation extends LightningElement {
-    @api myImageUrl;
+    @track isMenuOpen = false;
 
-    connectedCallback() {
-        // Default image URL if none is provided
-        if (!this.myImageUrl) {
-            this.myImageUrl = 'https://example.com/default-image.png';
-        }
+    get menuClass() {
+        return this.isMenuOpen ? 'show-menu' : '';
     }
-    handleNavClick(event){
-        console.log('Navigation item clicked');
+
+    toggleMenu() {
+        this.isMenuOpen = !this.isMenuOpen;
     }
 }

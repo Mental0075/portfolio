@@ -1,5 +1,5 @@
 <template>
-    <header class="site-header">
+    <!--header class="site-header">
         <div class="container">
           <div class="logo">Mobin Akhtar</div>
           <nav class="nav-links">
@@ -10,5 +10,20 @@
             <a href="#">Contact</a>
           </nav>
         </div>
-      </header>
+      </header-->
+      <header class="site-header">
+        <div class="container">
+            <div class="logo">Mobin Akhtar</div>
+            <button class="menu-toggle" onclick={toggleMenu}>
+                &#9776;
+            </button>
+            <nav class={menuClass}>
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">Certifications</a>
+                <a href="#">Resume</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
 </template>
