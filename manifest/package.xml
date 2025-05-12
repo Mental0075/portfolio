@@ -40,5 +40,12 @@
         <members>ProfessionalSkills__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>portfolio</members>
+        <members>portfolioHeaderNavigation</members>
+        <members>portfolioProfileInfo</members>
+        <members>portfolioSkills</members>
+        <name>LightningComponentBundle</name>
+    </types>
     <version>63.0</version>
 </Package>
